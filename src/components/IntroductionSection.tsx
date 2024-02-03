@@ -24,7 +24,7 @@ export default function IntroductionSection() {
               <input
                 type="text"
                 disabled
-                className="text-xl placeholder:text-black"
+                className="text-xl placeholder:text-black disabled:bg-white"
               />
             </ReactTyped>
           </div>
