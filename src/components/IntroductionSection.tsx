@@ -4,12 +4,15 @@ import Image from "next/image";
 
 export default function IntroductionSection() {
   return (
-    <div className="mt-[200px]  justify-center gap-52 flex  items-center ">
+    <div className="mt-[200px]  justify-center gap-52 flex  items-center font-mono ">
       <div className="">
         <div className="space-y-4 mb-10">
           <h1 className="text-5xl mb-8">Hey!</h1>
-          <span className="font-bold text-5xl">I'm</span>
-          <span className="text-[#3F0071] font-bold text-5xl ml-2">Luca.</span>
+          <h2 className="font-bold text-5xl" style={{ wordSpacing: "-0.3em" }}>
+            I'm
+            <span className="text-[#3F0071] font-bold text-5xl "> Luca.</span>
+          </h2>
+
           <div>
             <ReactTyped
               strings={["I code.", "I solve problems.", "I build solutions."]}
