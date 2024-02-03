@@ -9,7 +9,7 @@ export default function IntroductionSection() {
         <div className="space-y-4 mb-10">
           <h1 className="text-5xl mb-8">Hey!</h1>
           <h2 className="font-bold text-5xl" style={{ wordSpacing: "-0.3em" }}>
-            I'm
+            I&rsquo;m
             <span className="text-[#3F0071] font-bold text-5xl "> Luca.</span>
           </h2>
 

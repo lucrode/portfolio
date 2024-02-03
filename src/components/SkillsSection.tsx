@@ -26,7 +26,11 @@ export default function SkillsSection() {
 
       <div className="flex justify-center space-x-3 mt-4">
         {skills.map((s) => {
-          return <Badge className="bg-[#130050] text-lg  p-4 ">{s}</Badge>;
+          return (
+            <Badge key={s} className="bg-[#130050] text-lg  p-4 ">
+              {s}
+            </Badge>
+          );
         })}
       </div>
     </div>
