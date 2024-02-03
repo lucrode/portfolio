@@ -29,7 +29,7 @@ export default function WorkCard({
 }: WorkCardProps) {
   return (
     <div>
-      <Card className={className}>
+      <Card className={className + "w-96 text-center  "}>
         <CardHeader>
           <CardTitle className="text-2xl">{companyTitle}</CardTitle>
           <CardDescription>{date}</CardDescription>

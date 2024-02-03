@@ -7,7 +7,6 @@ export default function About() {
         <h2 className="text-3xl font-bold mb-8 flex hover:underline">Work</h2>
         <div className="">
           <WorkCard
-            className=" w-96 v-center hover:scale-[102%] transition-transform "
             companyTitle="1Tool"
             companyUrl=""
             date="August 2023 - Present"
@@ -23,7 +22,6 @@ export default function About() {
         </h2>
         <div className="">
           <WorkCard
-            className=" w-96 text-center hover:scale-[102%] transition-transform "
             companyTitle="FitFy"
             companyUrl=""
             date="Fitness Tracker App"
