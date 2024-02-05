@@ -6,7 +6,7 @@ import SkillsSection from "@/components/SkillsSection";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="max-w-full overflow-hidden">
       <IntroductionSection />
       <AboutMeSection />
       <SkillsSection />

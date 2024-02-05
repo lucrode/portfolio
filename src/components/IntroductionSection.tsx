@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function IntroductionSection() {
   return (
-    <div className="mt-[200px]  justify-center gap-52 flex  items-center font-mono ">
+    <div className="md:mt-[200px] lg:mt-[200px] p-8  md:p-0 lg:p-0  justify-center sm:gap-52 flex md:flex-row flex-col items-center font-mono ">
       <div className="">
         <div className="space-y-4 mb-10">
           <h1 className="text-5xl mb-8">Hey!</h1>
@@ -39,7 +39,7 @@ export default function IntroductionSection() {
         </div>
       </div>
 
-      <div className="relative  w-[400px] h-[400px]">
+      <div className="relative  w-[200px] h-[200px] mt-12 md:mt-0 lg:mt-0  md:w-[400px] md:h-[400px]  lg:w-[400px] lg:h-[400px]">
         <Image src={luca} className="rounded-lg " alt="Luca" fill></Image>
       </div>
     </div>

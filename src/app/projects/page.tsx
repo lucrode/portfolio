@@ -2,7 +2,7 @@ import WorkCard from "@/components/WorkCard";
 
 export default function About() {
   return (
-    <div className="font-mono w-full h-screen  mt-20 justify-evenly flex ">
+    <div className="font-mono w-full h-screen  mt-20 justify-evenly flex flex-wrap ">
       <div>
         <h2 className="text-3xl font-bold mb-8 flex hover:underline">Work</h2>
         <div className="">
