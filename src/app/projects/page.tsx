@@ -8,7 +8,7 @@ export default function About() {
         <div className="">
           <WorkCard
             companyTitle="1Tool"
-            companyUrl=""
+            companyUrl="https://www.1tool.com"
             date="August 2023 - Present"
             workDescription="Fullstack with NuxtJS and Laravel"
             description="Software Developer"
@@ -23,7 +23,7 @@ export default function About() {
         <div className="">
           <WorkCard
             companyTitle="FitFy"
-            companyUrl=""
+            companyUrl="https://github.com"
             date="Fitness Tracker App"
             workDescription="A Fitness Tracker app "
             languages={["NextJS", "React", "Express", "TailwindCSS"]}

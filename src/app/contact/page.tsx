@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { CiInstagram, CiLinkedin, CiMail } from "react-icons/ci";
 import { FaGithub, FaInstagram } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
-import contactSvg from "../undraw_personal_text.svg";
+import { BiCalendarWeek } from "react-icons/bi";
 
 export default function Contact() {
   return (
@@ -17,6 +16,12 @@ export default function Contact() {
             className="w-16 h-16 hover:scale-105  transition-transform"
           >
             <IoMail className="w-full h-full " />{" "}
+          </Link>
+          <Link
+            href="https://calendly.com/luca_malli/30min"
+            className="w-16 h-16 hover:scale-105  transition-transform"
+          >
+            <BiCalendarWeek className="w-full h-full" />{" "}
           </Link>
           <Link
             href="mailto:lucamal3d@gmail.com"

@@ -1,6 +1,7 @@
 import { ReactTyped } from "react-typed";
 import luca from "../app/luca.jpeg";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function IntroductionSection() {
   return (
@@ -31,7 +32,9 @@ export default function IntroductionSection() {
         </div>
         <div className="flex space-x-4">
           <button className="bg-[#3F0071] text-white  px-10 py-4 rounded-md">
-            Get in touch
+            <Link href="https://calendly.com/luca_malli/30min">
+              Get in touch
+            </Link>
           </button>
           <button className="text-[#3F0071] bg-white px-4  border-[#3F0071] border  py-2 rounded-md">
             Download Resume

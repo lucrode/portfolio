@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Badge } from "./ui/badge";
 import {
   Card,
@@ -29,21 +30,23 @@ export default function WorkCard({
 }: WorkCardProps) {
   return (
     <div>
-      <Card className={className + "w-96 text-center  "}>
-        <CardHeader>
-          <CardTitle className="text-2xl">{companyTitle}</CardTitle>
-          <CardDescription>{date}</CardDescription>
-          <p>{description}</p>
-        </CardHeader>
-        <CardContent>
-          <p>{workDescription}</p>
-        </CardContent>
-        <CardFooter className="space-x-2">
-          {languages.map((l) => {
-            return <Badge key={l}>{l}</Badge>;
-          })}
-        </CardFooter>
-      </Card>
+      <Link href={companyUrl}>
+        <Card className={className + "w-96 text-center  "}>
+          <CardHeader>
+            <CardTitle className="text-2xl">{companyTitle}</CardTitle>
+            <CardDescription>{date}</CardDescription>
+            <p>{description}</p>
+          </CardHeader>
+          <CardContent>
+            <p>{workDescription}</p>
+          </CardContent>
+          <CardFooter className="space-x-2">
+            {languages.map((l) => {
+              return <Badge key={l}>{l}</Badge>;
+            })}
+          </CardFooter>
+        </Card>
+      </Link>
     </div>
   );
 }

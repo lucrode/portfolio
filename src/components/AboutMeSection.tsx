@@ -8,18 +8,17 @@ export default function AboutMeSection() {
 
       <div className="col-md-12 md:mr-96 md:ml-96 p-8 md:p-0 lg:p-0 mt-4 space-y-4 ">
         <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet.
+          Hey, I'm Luca, an 18-year-old student at HTBLA Kaindorf. I'm all about
+          finding the perfect balance between my two passions: technology and
+          sports. When I'm not diving into coding projects or exploring the
+          latest tech trends, you'll find me out on the gym, lifting weights or
+          hitting the track for a run.
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet.
+          I love the thrill of competition and the satisfaction of mastering new
+          skills, whether it's in front of a screen or in the great outdoors.
+          Life's all about finding what makes you tick, and for me, it's the
+          perfect blend of digital innovation and physical activity.
         </p>
       </div>
     </div>
